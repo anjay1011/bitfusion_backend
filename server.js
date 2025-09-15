@@ -14,6 +14,7 @@ app.use(
     origin: [
               process.env.FRONTEND_URL,
               "http://localhost:3000",
+              "http://localhost:9002",
               "https://traffic-flow-ttpx.vercel.app",
             ],
     methods: ["GET", "POST"],
